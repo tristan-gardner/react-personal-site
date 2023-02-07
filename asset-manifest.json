@@ -1,19 +1,21 @@
 {
   "files": {
     "main.css": "/react-personal-site/static/css/main.073c9b0a.css",
-    "main.js": "/react-personal-site/static/js/main.ca7376f6.js",
+    "main.js": "/react-personal-site/static/js/main.6e0c7599.js",
     "static/js/787.28cb0dcd.chunk.js": "/react-personal-site/static/js/787.28cb0dcd.chunk.js",
     "static/media/hiking.jpg": "/react-personal-site/static/media/hiking.fcb7afbf482a2c9a9773.jpg",
+    "static/media/resume.png": "/react-personal-site/static/media/resume.f43b4cebfe711c20f7a3.png",
     "static/media/helmet.jpg": "/react-personal-site/static/media/helmet.764435b66cca02cbde9e.jpg",
+    "static/media/resume.pdf": "/react-personal-site/static/media/resume.b2e93b1144f040404621.pdf",
     "static/media/costa.jpg": "/react-personal-site/static/media/costa.48d8ef3858449f96b9d1.jpg",
     "static/media/boat.jpg": "/react-personal-site/static/media/boat.c912f253a48bb4e51252.jpg",
     "index.html": "/react-personal-site/index.html",
     "main.073c9b0a.css.map": "/react-personal-site/static/css/main.073c9b0a.css.map",
-    "main.ca7376f6.js.map": "/react-personal-site/static/js/main.ca7376f6.js.map",
+    "main.6e0c7599.js.map": "/react-personal-site/static/js/main.6e0c7599.js.map",
     "787.28cb0dcd.chunk.js.map": "/react-personal-site/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.ca7376f6.js"
+    "static/js/main.6e0c7599.js"
   ]
 }
