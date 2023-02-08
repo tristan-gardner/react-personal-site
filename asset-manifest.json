@@ -1,21 +1,30 @@
 {
   "files": {
     "main.css": "/react-personal-site/static/css/main.073c9b0a.css",
-    "main.js": "/react-personal-site/static/js/main.6e0c7599.js",
+    "main.js": "/react-personal-site/static/js/main.a908013f.js",
     "static/js/787.28cb0dcd.chunk.js": "/react-personal-site/static/js/787.28cb0dcd.chunk.js",
+    "static/media/fasteners.png": "/react-personal-site/static/media/fasteners.c0bad3bdf832a667be87.png",
+    "static/media/juice.png": "/react-personal-site/static/media/juice.5db59cfe2afa02b41d4a.png",
+    "static/media/speaker.png": "/react-personal-site/static/media/speaker.e54105eaa600b4281f25.png",
+    "static/media/amp.png": "/react-personal-site/static/media/amp.27a6db5c7aeac5458475.png",
+    "static/media/speaker.mov": "/react-personal-site/static/media/speaker.e432c213450079e853bc.mov",
+    "static/media/board.png": "/react-personal-site/static/media/board.1b1e755583012a5bd242.png",
+    "static/media/riley.png": "/react-personal-site/static/media/riley.b1f20a1bd95348b62be8.png",
+    "static/media/exciter.png": "/react-personal-site/static/media/exciter.805b34d44074db3970d8.png",
+    "static/media/helmet.JPG": "/react-personal-site/static/media/helmet.fc58002f7b710d363255.JPG",
     "static/media/hiking.jpg": "/react-personal-site/static/media/hiking.fcb7afbf482a2c9a9773.jpg",
     "static/media/resume.png": "/react-personal-site/static/media/resume.f43b4cebfe711c20f7a3.png",
-    "static/media/helmet.jpg": "/react-personal-site/static/media/helmet.764435b66cca02cbde9e.jpg",
     "static/media/resume.pdf": "/react-personal-site/static/media/resume.b2e93b1144f040404621.pdf",
     "static/media/costa.jpg": "/react-personal-site/static/media/costa.48d8ef3858449f96b9d1.jpg",
     "static/media/boat.jpg": "/react-personal-site/static/media/boat.c912f253a48bb4e51252.jpg",
+    "static/media/site.jpeg": "/react-personal-site/static/media/site.3b2836b40c1344d05084.jpeg",
     "index.html": "/react-personal-site/index.html",
     "main.073c9b0a.css.map": "/react-personal-site/static/css/main.073c9b0a.css.map",
-    "main.6e0c7599.js.map": "/react-personal-site/static/js/main.6e0c7599.js.map",
+    "main.a908013f.js.map": "/react-personal-site/static/js/main.a908013f.js.map",
     "787.28cb0dcd.chunk.js.map": "/react-personal-site/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.6e0c7599.js"
+    "static/js/main.a908013f.js"
   ]
 }
