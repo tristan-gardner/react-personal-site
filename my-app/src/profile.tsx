@@ -25,15 +25,20 @@ const pageDetails: {
     backgroundColor: string,
     fontColor: string
 }[] = [
-    {
-        image: require("./profile_pics/helmet.jpg"),
-        backgroundColor: "#B9CDE4",
-        fontColor: "#4D6690",
-    },
+    // {
+    //     image: require("./profile_pics/helmet.jpg"),
+    //     backgroundColor: "#B9CDE4",
+    //     fontColor: "#4D6690",
+    // },
     {
         image: require("./profile_pics/costa.jpg"),
         backgroundColor: "#9BA6A9",
         fontColor: "#413932",
+    },
+    {
+        image: require("./profile_pics/riley.png"),
+        backgroundColor: "#F6D39E",
+        fontColor: "#653E24",
     },
     {
         image: require("./profile_pics/boat.jpg"),

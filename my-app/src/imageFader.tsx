@@ -56,36 +56,3 @@ const ImageFader: React.FC<Props> = ({ currentIndex, images, alt="" }) => {
 };
 
 export default ImageFader;
-
-
-// const useImageFade = (
-//     images: string[],
-//     interval: number = 5000
-// ) => {
-//   const [currentImage, setCurrentImage] = useState(images[0]);
-
-//   useEffect(() => {
-//     let index = 0;
-//     const intervalId = setInterval(() => {
-//       index = (index + 1) % images.length;
-//       setCurrentImage(images[index]);
-//     }, interval);
-//     return () => clearInterval(intervalId);
-//   }, [images]);
-
-//   return currentImage;
-// };
-
-
-
-// const ImageFader: React.FC<{ 
-//     images: string[],
-//     interval: number,
-//     alt: string 
-// }> = ({ images, interval = 5000, alt="" }) => {
-//   const currentImage = useImageFade(images, interval);
-
-//   return <img src={currentImage} alt={alt} style={avatarStyles}/>;
-// };
-
-// export default ImageFader;

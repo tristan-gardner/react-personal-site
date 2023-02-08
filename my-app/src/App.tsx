@@ -9,6 +9,7 @@ import { Grid, Link, Box } from '@material-ui/core';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import { Resume } from './pages/resume';
+import { Projects } from './pages/projects';
 
 
 const BASE_URL = '/react-personal-site'
@@ -21,6 +22,7 @@ const App = (): JSX.Element => {
         <Route path={`${BASE_URL}/`} element={<ProfilePage />} />
         <Route path={`${BASE_URL}/about`} element={<About/>} />
         <Route path={`${BASE_URL}/resume`} element={<Resume />} />
+        <Route path={`${BASE_URL}/projects`} element={<Projects />} />
     </Routes>
     </Router>
     <Grid 

@@ -15,6 +15,9 @@ return (
 		<NavLink to="/react-personal-site/resume">
 			Resume
 		</NavLink>
+        <NavLink to="/react-personal-site/projects">
+			Projects
+		</NavLink>
 		{/* <NavLink to="/blogs" activeStyle>
 			Blogs
 		</NavLink>
