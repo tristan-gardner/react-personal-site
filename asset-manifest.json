@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-personal-site/static/css/main.073c9b0a.css",
-    "main.js": "/react-personal-site/static/js/main.a908013f.js",
+    "main.js": "/react-personal-site/static/js/main.396e9853.js",
     "static/js/787.28cb0dcd.chunk.js": "/react-personal-site/static/js/787.28cb0dcd.chunk.js",
     "static/media/fasteners.png": "/react-personal-site/static/media/fasteners.c0bad3bdf832a667be87.png",
     "static/media/juice.png": "/react-personal-site/static/media/juice.5db59cfe2afa02b41d4a.png",
@@ -15,16 +15,19 @@
     "static/media/hiking.jpg": "/react-personal-site/static/media/hiking.fcb7afbf482a2c9a9773.jpg",
     "static/media/resume.png": "/react-personal-site/static/media/resume.f43b4cebfe711c20f7a3.png",
     "static/media/resume.pdf": "/react-personal-site/static/media/resume.b2e93b1144f040404621.pdf",
+    "static/media/email.png": "/react-personal-site/static/media/email.fc628e1e0c31eef52218.png",
     "static/media/costa.jpg": "/react-personal-site/static/media/costa.48d8ef3858449f96b9d1.jpg",
+    "static/media/homepage.png": "/react-personal-site/static/media/homepage.ff80a14bdb72b81be302.png",
+    "static/media/logo.png": "/react-personal-site/static/media/logo.bd8c2b6053aaf4696533.png",
     "static/media/boat.jpg": "/react-personal-site/static/media/boat.c912f253a48bb4e51252.jpg",
     "static/media/site.jpeg": "/react-personal-site/static/media/site.3b2836b40c1344d05084.jpeg",
     "index.html": "/react-personal-site/index.html",
     "main.073c9b0a.css.map": "/react-personal-site/static/css/main.073c9b0a.css.map",
-    "main.a908013f.js.map": "/react-personal-site/static/js/main.a908013f.js.map",
+    "main.396e9853.js.map": "/react-personal-site/static/js/main.396e9853.js.map",
     "787.28cb0dcd.chunk.js.map": "/react-personal-site/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.a908013f.js"
+    "static/js/main.396e9853.js"
   ]
 }
