@@ -16,7 +16,7 @@ const About = () => {
             width: '70%'
         }}>
             <Typography variant="h3">Tristan Gardner</Typography>
-            <p style={{fontSize: "26px"}}>I am a traveler, an avid hiker, an improving snowboarder, an on-and-off reader, a bingewatcher, a huge Niners fan, a competent cook, and sarcasm expert.  I like to build, tinker with, break, and fix things, though not always in that order.</p>
+            <p style={{fontSize: "26px"}}>I am a traveler, an avid climber, an improving snowboarder, an on-and-off reader, a bingewatcher, a huge Niners fan, and a competent cook.  I like to build, tinker with, break, and fix things, though not always in that order.</p>
             <p style={{fontSize: "26px"}}>
             I was raised in Oakland, California, and went on to receive my education at Colgate University. 
             After graduation, I began my career in the tech industry as a software engineer at Bird Rides. 

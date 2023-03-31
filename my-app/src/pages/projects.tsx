@@ -5,6 +5,26 @@ import { Box } from "@material-ui/core";
 
 export const Projects = (): JSX.Element => {
     return <>
+        <Card summary="Nobot Ai detection" image={require("./pics/project/nobot/logo.png")}>
+            <p>
+                Nobot was an attempt to build a service which detected AI generated content in student submission.  Educators were meant to connect their google classrooms and send assignments to be scored.  The service would then return a score for each student and a breakdown of the submissions.
+            </p>
+            <p>
+                The tool was built using python, react, typescript, and deployed on Azure.  It used an AI model to detect AI content.
+            </p>
+            <p> Unfortunatly turnitin.com an already established player beat us to the punch </p>
+            <Box style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                <Box style={{
+                    flexDirection: 'row',
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                }}>
+                    <img width="40%" src={require('./pics/project/nobot/homepage.png')} />
+                    <img width="40%" src={require('./pics/project/nobot/email.png')} />
+                </Box>
+            </Box>
+        </Card>
+        <Box style={{height: "10px"}}/>
         <Card summary="The Santa Cruz Speaker" image={require("./pics/project/speaker/speaker.png")}> 
             <p>Using a {" "}
                 <a style={{color: 'black'}} href="https://www.parts-express.com/Dayton-Audio-DAEX25FHE-4-Framed-High-Efficiency-25mm-Exciter-295-224?quantity=1">Dayton autio exciter</a>,{" "} 
