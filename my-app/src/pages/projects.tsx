@@ -71,6 +71,7 @@ export const Projects = (): JSX.Element => {
                 </Box>
             </Box>
         </Card>
+        <Box style={{height: "10px"}}/>
         <Card summary="This Website" image={require("./pics/project/site/site.jpeg")}> 
             <p>This site is built using typescript, react, and material-ui.  It's hosted as a github site.</p>
             <p>Extensions - continue to add projects, photos, etc. Clean up the video in the snowboard speaker project card.  Figure out how to allow pdf or png downloading of a locally saved file.</p>
