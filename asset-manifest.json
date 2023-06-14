@@ -1,15 +1,11 @@
 {
   "files": {
     "main.css": "/react-personal-site/static/css/main.073c9b0a.css",
-    "main.js": "/react-personal-site/static/js/main.ff39a0e4.js",
+    "main.js": "/react-personal-site/static/js/main.b2d2b3a8.js",
     "static/js/787.28cb0dcd.chunk.js": "/react-personal-site/static/js/787.28cb0dcd.chunk.js",
     "static/media/no_plants.MOV": "/react-personal-site/static/media/no_plants.8b4a5084bfcbf63ede9c.MOV",
     "static/media/success.MOV": "/react-personal-site/static/media/success.8a1a75b3c441637c47ff.MOV",
-    "static/media/parts.png": "/react-personal-site/static/media/parts.d96eea9215621f8db5eb.png",
     "static/media/fasteners.png": "/react-personal-site/static/media/fasteners.c0bad3bdf832a667be87.png",
-    "static/media/wiring.png": "/react-personal-site/static/media/wiring.44faf8e2b21a18bca92f.png",
-    "static/media/final_setup.png": "/react-personal-site/static/media/final_setup.b2cfc43b7743e38d8d0b.png",
-    "static/media/motor_setup.png": "/react-personal-site/static/media/motor_setup.148bdf026a190710c460.png",
     "static/media/juice.png": "/react-personal-site/static/media/juice.5db59cfe2afa02b41d4a.png",
     "static/media/speaker.png": "/react-personal-site/static/media/speaker.e54105eaa600b4281f25.png",
     "static/media/amp.png": "/react-personal-site/static/media/amp.27a6db5c7aeac5458475.png",
@@ -17,6 +13,10 @@
     "static/media/board.png": "/react-personal-site/static/media/board.1b1e755583012a5bd242.png",
     "static/media/riley.png": "/react-personal-site/static/media/riley.b1f20a1bd95348b62be8.png",
     "static/media/exciter.png": "/react-personal-site/static/media/exciter.805b34d44074db3970d8.png",
+    "static/media/parts.jpg": "/react-personal-site/static/media/parts.b6c6cd5a72bb89ed3a71.jpg",
+    "static/media/wiring.jpg": "/react-personal-site/static/media/wiring.397ee6d7b498e7dd1d20.jpg",
+    "static/media/final_setup.jpg": "/react-personal-site/static/media/final_setup.b06827e907cff59d2967.jpg",
+    "static/media/motor_setup.jpg": "/react-personal-site/static/media/motor_setup.ecc3a403cfbc7bfd6764.jpg",
     "static/media/helmet.JPG": "/react-personal-site/static/media/helmet.fc58002f7b710d363255.JPG",
     "static/media/hiking.jpg": "/react-personal-site/static/media/hiking.fcb7afbf482a2c9a9773.jpg",
     "static/media/resume.png": "/react-personal-site/static/media/resume.f43b4cebfe711c20f7a3.png",
@@ -30,11 +30,11 @@
     "static/media/site.jpeg": "/react-personal-site/static/media/site.3b2836b40c1344d05084.jpeg",
     "index.html": "/react-personal-site/index.html",
     "main.073c9b0a.css.map": "/react-personal-site/static/css/main.073c9b0a.css.map",
-    "main.ff39a0e4.js.map": "/react-personal-site/static/js/main.ff39a0e4.js.map",
+    "main.b2d2b3a8.js.map": "/react-personal-site/static/js/main.b2d2b3a8.js.map",
     "787.28cb0dcd.chunk.js.map": "/react-personal-site/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.ff39a0e4.js"
+    "static/js/main.b2d2b3a8.js"
   ]
 }
