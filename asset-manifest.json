@@ -1,9 +1,15 @@
 {
   "files": {
     "main.css": "/react-personal-site/static/css/main.073c9b0a.css",
-    "main.js": "/react-personal-site/static/js/main.396e9853.js",
+    "main.js": "/react-personal-site/static/js/main.9d376dbb.js",
     "static/js/787.28cb0dcd.chunk.js": "/react-personal-site/static/js/787.28cb0dcd.chunk.js",
+    "static/media/no_plants.MOV": "/react-personal-site/static/media/no_plants.8b4a5084bfcbf63ede9c.MOV",
+    "static/media/success.MOV": "/react-personal-site/static/media/success.8a1a75b3c441637c47ff.MOV",
+    "static/media/parts.png": "/react-personal-site/static/media/parts.d96eea9215621f8db5eb.png",
     "static/media/fasteners.png": "/react-personal-site/static/media/fasteners.c0bad3bdf832a667be87.png",
+    "static/media/wiring.png": "/react-personal-site/static/media/wiring.44faf8e2b21a18bca92f.png",
+    "static/media/final_setup.png": "/react-personal-site/static/media/final_setup.b2cfc43b7743e38d8d0b.png",
+    "static/media/motor_setup.png": "/react-personal-site/static/media/motor_setup.148bdf026a190710c460.png",
     "static/media/juice.png": "/react-personal-site/static/media/juice.5db59cfe2afa02b41d4a.png",
     "static/media/speaker.png": "/react-personal-site/static/media/speaker.e54105eaa600b4281f25.png",
     "static/media/amp.png": "/react-personal-site/static/media/amp.27a6db5c7aeac5458475.png",
@@ -17,17 +23,18 @@
     "static/media/resume.pdf": "/react-personal-site/static/media/resume.b2e93b1144f040404621.pdf",
     "static/media/email.png": "/react-personal-site/static/media/email.fc628e1e0c31eef52218.png",
     "static/media/costa.jpg": "/react-personal-site/static/media/costa.48d8ef3858449f96b9d1.jpg",
+    "static/media/diagram.png": "/react-personal-site/static/media/diagram.936703006ad58ab9d054.png",
     "static/media/homepage.png": "/react-personal-site/static/media/homepage.ff80a14bdb72b81be302.png",
     "static/media/logo.png": "/react-personal-site/static/media/logo.bd8c2b6053aaf4696533.png",
     "static/media/boat.jpg": "/react-personal-site/static/media/boat.c912f253a48bb4e51252.jpg",
     "static/media/site.jpeg": "/react-personal-site/static/media/site.3b2836b40c1344d05084.jpeg",
     "index.html": "/react-personal-site/index.html",
     "main.073c9b0a.css.map": "/react-personal-site/static/css/main.073c9b0a.css.map",
-    "main.396e9853.js.map": "/react-personal-site/static/js/main.396e9853.js.map",
+    "main.9d376dbb.js.map": "/react-personal-site/static/js/main.9d376dbb.js.map",
     "787.28cb0dcd.chunk.js.map": "/react-personal-site/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.396e9853.js"
+    "static/js/main.9d376dbb.js"
   ]
 }
