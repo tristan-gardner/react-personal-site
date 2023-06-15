@@ -66,7 +66,7 @@ export const ProjectList = ({
         <Box style={{height: "10px"}}/>
         <Card 
             summary="The Santa Cruz Speaker" 
-            image={require("../pics/project/speaker/speaker.png")}
+            image={"https://res.cloudinary.com/dgnqdbhjg/image/upload/v1686789590/speaker_ymnldv.png"}
             onClick={setSpeakerProject}
         > 
             <p>Using a {" "}

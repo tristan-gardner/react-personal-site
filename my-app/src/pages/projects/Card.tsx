@@ -64,12 +64,6 @@ export const Card = ({
     onClick,
 }: CardProps): JSX.Element => {
     const [open, setOpen] = useState(false)
-
-    // return <ButtonBase onClick={onClick} style={{
-    //     display: 'flex',
-    //     flexDirection: 'row',
-    //     width: '100%',
-    // }}>
     return (
         <Box style={{
             display: 'flex',
@@ -88,7 +82,6 @@ export const Card = ({
                 <Box style={{
                     display: 'flex',
                     flexDirection: 'row',
-                    // border: "1px solid red",
                     width: '100%',
                     paddingTop: '10px',
                     paddingBottom: '10px',
@@ -100,7 +93,6 @@ export const Card = ({
                         <Typography variant="h3"> {summary} </Typography>
                     </Box>
                     <Box style={{
-                        // border: '1px dashed blue',
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'flex-end',
@@ -123,15 +115,8 @@ export const Card = ({
                     setOpen={setOpen}
                     onClick={onClick}
                 />
-                {/* <Button style={{
-                    border: '1px solid #eeeeee',
-                    borderBottomLeftRadius: '10px',
-                    borderBottomRightRadius: '10px',
-                    backgroundColor: '#ffffff'
-                }} onClick={() => setOpen(!open)}>{open ? "Read less" : "Read more"}</Button> */}
             </Box>
             <Box style={{width: "250px"}}/>
         </Box>
     )
-    // </ButtonBase>
 }

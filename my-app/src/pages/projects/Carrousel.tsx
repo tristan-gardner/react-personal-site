@@ -21,12 +21,17 @@ const StyledChevronButton = withStyles((theme) => ({
     },
   }))(IconButton);
 
+export interface CarrouselContent {
+    source: string,
+    isVideo: boolean
+}
+
 interface CarrouselProps {
     modalOpen: boolean
     closeModal: () => void
     showPreviousImage: () => void
     showNextImage: () => void
-    modalImages: JSX.Element[]
+    modalImages: CarrouselContent[]
     modalIndex: number
 }
 
@@ -58,7 +63,25 @@ export const Carrousel = ({
               <StyledChevronButton onClick={showPreviousImage} style={{ left: "8px" }}>
                 <ChevronLeft fontSize="large" />
               </StyledChevronButton>
-              {modalImages.length > 0 ? modalImages[modalIndex] :<></>}
+              {modalImages.length > 0 ? modalImages[modalIndex].isVideo ? 
+                <video controls src={modalImages[modalIndex].source} style={{
+                    maxWidth: "80vw",
+                    maxHeight: "80vh",
+                    display: "block",
+                    margin: "0 auto",
+                    position: "relative",
+                    top: "50%",
+                    transform: "translateY(10%)",
+                }} />
+              : <img src={modalImages[modalIndex].source} style={{
+                    maxWidth: "80vw",
+                    maxHeight: "80vh",
+                    display: "block",
+                    margin: "0 auto",
+                    position: "relative",
+                    top: "50%",
+                    transform: "translateY(10%)",
+                }} /> :<></>}
               <StyledChevronButton onClick={showNextImage} style={{ right: "8px" }}>
                 <ChevronRight fontSize="large" />
               </StyledChevronButton>

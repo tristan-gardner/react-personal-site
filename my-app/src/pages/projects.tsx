@@ -1,14 +1,14 @@
 import React, { useState } from "react";
-import { Carrousel } from "./projects/Carrousel";
+import { Carrousel, CarrouselContent } from "./projects/Carrousel";
 import { ProjectList } from "./projects/List";
 
 
 export const Projects = (): JSX.Element => {
     const [modalOpen, setModalOpen] = useState(false);
-    const [modalImages, setModalImages] = useState<JSX.Element[]>([]);
+    const [modalImages, setModalImages] = useState<CarrouselContent[]>([]);
     const [modalIndex, setModalIndex] = useState(0);
 
-    const openModal = (images: JSX.Element[], index: number) => {
+    const openModal = (images: CarrouselContent[], index: number) => {
         setModalImages(images);
         setModalIndex(index);
         setModalOpen(true);
