@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/react-personal-site/static/css/main.073c9b0a.css",
-    "main.js": "/react-personal-site/static/js/main.34d5e1b6.js",
+    "main.js": "/react-personal-site/static/js/main.6c86925e.js",
     "static/js/787.28cb0dcd.chunk.js": "/react-personal-site/static/js/787.28cb0dcd.chunk.js",
     "static/media/juice.png": "/react-personal-site/static/media/juice.5db59cfe2afa02b41d4a.png",
     "static/media/riley.png": "/react-personal-site/static/media/riley.b1f20a1bd95348b62be8.png",
-    "static/media/final_setup.jpg": "/react-personal-site/static/media/final_setup.b06827e907cff59d2967.jpg",
     "static/media/helmet.JPG": "/react-personal-site/static/media/helmet.fc58002f7b710d363255.JPG",
     "static/media/hiking.jpg": "/react-personal-site/static/media/hiking.fcb7afbf482a2c9a9773.jpg",
     "static/media/resume.png": "/react-personal-site/static/media/resume.f43b4cebfe711c20f7a3.png",
@@ -16,11 +15,11 @@
     "static/media/site.jpeg": "/react-personal-site/static/media/site.3b2836b40c1344d05084.jpeg",
     "index.html": "/react-personal-site/index.html",
     "main.073c9b0a.css.map": "/react-personal-site/static/css/main.073c9b0a.css.map",
-    "main.34d5e1b6.js.map": "/react-personal-site/static/js/main.34d5e1b6.js.map",
+    "main.6c86925e.js.map": "/react-personal-site/static/js/main.6c86925e.js.map",
     "787.28cb0dcd.chunk.js.map": "/react-personal-site/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.34d5e1b6.js"
+    "static/js/main.6c86925e.js"
   ]
 }
