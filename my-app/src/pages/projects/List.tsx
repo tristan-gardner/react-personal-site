@@ -8,6 +8,10 @@ interface ProjectListProps {
     openModal: (images: any[], index: number) => void
 }
 
+const Spacer = (): JSX.Element => {
+    return <Box style={{height: "25px"}}/>
+}
+
 
 export const ProjectList = ({
     openModal
@@ -49,7 +53,7 @@ export const ProjectList = ({
                 Also more plants!
             </p>
         </Card>
-        <Box style={{height: "10px"}}/>
+        <Spacer />
         <Card 
             summary="Nobot Ai Detection" 
             image={require("../pics/project/nobot/logo.png")}
@@ -63,7 +67,7 @@ export const ProjectList = ({
             </p>
             <p> Unfortunatly turnitin.com an already established player beat us to the punch </p>
         </Card>
-        <Box style={{height: "10px"}}/>
+        <Spacer />
         <Card 
             summary="The Santa Cruz Speaker" 
             image={"https://res.cloudinary.com/dgnqdbhjg/image/upload/v1686789590/speaker_ymnldv.png"}
@@ -79,7 +83,7 @@ export const ProjectList = ({
             <p>This is an extention of DML speakers - there's lots to be found about these online, but to cut to the chase, some snowboards are made of a carbon fiber material with a honeycomb pattern which is suppossed to great for projecting sound.  Below you can see the materials needed as well as a video showing it in action.</p>
             <p>Extensions - I love this speaker but of course there is more to do.  I hope to make a 3d printed casing to house the companents and allow it to be screwed on and off using the binding holes.  I'd also like to experiment with different exciters and using multiple to see if I can get the sound to be cleaner and louder</p>
         </Card>
-        <Box style={{height: "10px"}}/>
+        <Spacer />
         <Card summary="Slackronym" image={require("../pics/project/slackronym/slack.png")}> 
             <p>
             I built a {" "}
@@ -99,7 +103,7 @@ export const ProjectList = ({
                 </Box>
             </Box>
         </Card>
-        <Box style={{height: "10px"}}/>
+        <Spacer />
         <Card summary="This Website" image={require("../pics/project/site/site.jpeg")}> 
             <p>This site is built using typescript, react, and material-ui.  It's hosted as a github site.</p>
             <p>Extensions - continue to add projects, photos, etc. Clean up the video in the snowboard speaker project card.  Figure out how to allow pdf or png downloading of a locally saved file.</p>
