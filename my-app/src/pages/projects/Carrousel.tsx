@@ -3,7 +3,9 @@ import Box from "@material-ui/core/Box"
 import IconButton from "@material-ui/core/IconButton"
 import Modal from "@material-ui/core/Modal"
 import { ChevronLeft, ChevronRight, Close } from "@material-ui/icons"
-import React from "react"
+import React, { useState } from "react"
+import CircularProgress from '@mui/material/CircularProgress';
+
 
 const StyledChevronButton = withStyles((theme) => ({
     root: {
@@ -35,6 +37,61 @@ interface CarrouselProps {
     modalIndex: number
 }
 
+const Content = (
+    modalImages: CarrouselContent[],
+    modalIndex: number,
+    loading: boolean,
+    setLoading: (load: boolean) => void
+): JSX.Element => {
+    const handleLoaded = () => {
+        setLoading(false)
+        console.log("loaded source")
+    }
+
+    return (<>
+        {modalImages.length > 0 ? modalImages[modalIndex].isVideo ? 
+            <video 
+                controls src={modalImages[modalIndex].source} 
+                style={{
+                    maxWidth: "80vw",
+                    maxHeight: "80vh",
+                    display: loading ? 'none' : "block",
+                    margin: "0 auto",
+                    position: "relative",
+                    top: "50%",
+                    transform: "translateY(10%)",
+                }}
+                onLoad={handleLoaded}
+            />
+        : <img 
+            src={modalImages[modalIndex].source} 
+            style={{
+                maxWidth: "80vw",
+                maxHeight: "80vh",
+                display: loading ? 'none' : "block",
+                margin: "0 auto",
+                position: "relative",
+                top: "50%",
+                transform: "translateY(10%)",
+            }}
+            onLoad={handleLoaded} 
+        /> :<></>}
+        {loading &&
+            <Box
+                style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    height: "80vh",
+                    width: "100%",
+                }}
+            >
+                <CircularProgress />
+            </Box>
+        }
+    </>)
+}
+
 export const Carrousel = ({
     modalOpen,
     closeModal,
@@ -43,6 +100,8 @@ export const Carrousel = ({
     modalImages,
     modalIndex,
 }: CarrouselProps) => {
+    const [loading, setLoading] = useState(true)
+    
     return (
         <Modal open={modalOpen} onClose={closeModal}>
         <Box
@@ -63,25 +122,7 @@ export const Carrousel = ({
               <StyledChevronButton onClick={showPreviousImage} style={{ left: "8px" }}>
                 <ChevronLeft fontSize="large" />
               </StyledChevronButton>
-              {modalImages.length > 0 ? modalImages[modalIndex].isVideo ? 
-                <video controls src={modalImages[modalIndex].source} style={{
-                    maxWidth: "80vw",
-                    maxHeight: "80vh",
-                    display: "block",
-                    margin: "0 auto",
-                    position: "relative",
-                    top: "50%",
-                    transform: "translateY(10%)",
-                }} />
-              : <img src={modalImages[modalIndex].source} style={{
-                    maxWidth: "80vw",
-                    maxHeight: "80vh",
-                    display: "block",
-                    margin: "0 auto",
-                    position: "relative",
-                    top: "50%",
-                    transform: "translateY(10%)",
-                }} /> :<></>}
+              {Content(modalImages, modalIndex, loading, setLoading)}
               <StyledChevronButton onClick={showNextImage} style={{ right: "8px" }}>
                 <ChevronRight fontSize="large" />
               </StyledChevronButton>

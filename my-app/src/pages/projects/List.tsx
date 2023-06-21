@@ -27,7 +27,7 @@ export const ProjectList = ({
     return <>
         <Card 
             summary="Automatic Plant Waterer" 
-            image={require("../pics/project/waterer/final_setup.jpg")}
+            image={"https://res.cloudinary.com/dgnqdbhjg/image/upload/v1686787569/final_setup_go7pek.jpg"}
             onClick={setWatererProject}
         >
             <p>
