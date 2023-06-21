@@ -37,7 +37,7 @@ export const ProjectList = ({
             <p>
                 This was my first project getting into robotics.  
                 It uses an arduino controller to read inputs from two soil moisture sensors.  
-                When it decides the soil is dry for a given plant, it moves the hose into positions and pumps water.
+                When it decides the soil is dry for a given plant, it moves the hose into the corresponding positions and pumps water.
             </p>
             <p>
                 The movement is achieved using a stepper motor and a timing belt.  
@@ -49,7 +49,7 @@ export const ProjectList = ({
                     here.</a>
             </p>
             <p> 
-                Extensions - I think an obvious next step is to 3d print a better chasis for this project and get away from the carboard rig, it was great for making a low-fi set up, but wont last over time.
+                Extensions - I think an obvious next step is to 3D print a better chasis for this project and get away from the carboard rig.  It was great for making a low-fi set up, but wont last over time.
                 Also more plants!
             </p>
         </Card>

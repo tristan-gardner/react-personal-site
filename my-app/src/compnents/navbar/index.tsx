@@ -12,18 +12,12 @@ return (
 		<NavLink to="/react-personal-site/about" >
 			About
 		</NavLink>
+		<NavLink to="/react-personal-site/projects">
+			Projects
+		</NavLink>
 		<NavLink to="/react-personal-site/resume">
 			Resume
 		</NavLink>
-        <NavLink to="/react-personal-site/projects">
-			Projects
-		</NavLink>
-		{/* <NavLink to="/blogs" activeStyle>
-			Blogs
-		</NavLink>
-		<NavLink to="/sign-up" activeStyle>
-			Sign Up
-		</NavLink>  */}
 		</NavMenu>
 	</Nav>
 	</>

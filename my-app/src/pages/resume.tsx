@@ -35,18 +35,40 @@ const PdfButton: React.FC = () => {
     );
   };
 
+const pdfUrl = "https://res.cloudinary.com/dgnqdbhjg/image/upload/v1687308391/tristan_gardner_resume_xf7pan.pdf";
 
-const DownloadButton = (): JSX.Element => {
+const DownloadButton = () => {
+    const handleDownload = () => {
+      // Create a temporary link element
+      const link = document.createElement("a");
+      link.href = pdfUrl;
+      link.download = "resume.pdf";
+      link.target = "_blank";
+  
+      // Simulate a click event to trigger the download
+      link.click();
+    };
+  
     return (
-    // <Button onClick={}>Download PDF</Button>
-      <a download="resume.pdf" href={require("./resume.pdf")}>
-        <button>Download PDF</button>
-      </a>
+      <Box style={{
+        display: 'flex',
+        justifyContent: 'center',
+      }}>
+        <button onClick={handleDownload}>
+          Download PDF
+        </button>
+      </Box>
     );
-  }
+};
 
 export const Resume = (): JSX.Element => {
     return <Box>
-        <img src={require('./resume.png')} alt={'resume'} />
+        <iframe
+        src={`https://docs.google.com/viewer?url=${encodeURIComponent(pdfUrl)}&embedded=true`}
+        width="100%"
+        height="600px"
+        title="PDF Viewer"
+      />
+      <DownloadButton />
     </Box>
 }
