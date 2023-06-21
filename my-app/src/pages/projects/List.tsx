@@ -105,8 +105,17 @@ export const ProjectList = ({
         </Card>
         <Spacer />
         <Card summary="This Website" image={require("../pics/project/site/site.jpeg")}> 
-            <p>This site is built using typescript, react, and material-ui.  It's hosted as a github site.</p>
-            <p>Extensions - continue to add projects, photos, etc. Clean up the video in the snowboard speaker project card.  Figure out how to allow pdf or png downloading of a locally saved file.</p>
+            <p> 
+                This site is built using typescript, react, and material-ui.  
+                It's hosted as a github site.  
+                It uses cloudinary as the CDN to provide the images and videos - but I use the free tier so the loading is still slow sometimes.
+            </p>
+            <p>
+                Extensions - continue to add projects, photos, etc. 
+                Clean up the video in the snowboard speaker project card.  
+                Alter image carrousel so that you can see next and previous images.
+                Optomize the images for web to speed up load times.
+            </p>
         </Card>
     </>
 }
