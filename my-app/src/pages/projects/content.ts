@@ -28,3 +28,8 @@ export const speakerContent = [
     makeContent("https://res.cloudinary.com/dgnqdbhjg/image/upload/v1686789590/speaker_ymnldv.png"),
     makeContent("https://res.cloudinary.com/dgnqdbhjg/video/upload/v1686789595/speaker_rp8ryq.mov", true),
 ]
+
+export const slackronymContent = [
+    makeContent("https://res.cloudinary.com/dgnqdbhjg/video/upload/v1687977570/slackronym_bdpooi.mp4", true),
+    makeContent("https://res.cloudinary.com/dgnqdbhjg/image/upload/v1687977712/slack_message_kqhcp9.png"),
+]

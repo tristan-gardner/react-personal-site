@@ -1,7 +1,7 @@
 import Box from "@material-ui/core/Box"
 import React from "react"
 import { Card } from "./Card"
-import { nobotContent, speakerContent, watererContent } from "./content"
+import { nobotContent, slackronymContent, speakerContent, watererContent } from "./content"
 
 
 interface ProjectListProps {
@@ -26,6 +26,10 @@ export const ProjectList = ({
 
     const setWatererProject = () => {
         openModal(watererContent, 0)
+    }
+
+    const setSlackronymProject = () => {
+        openModal(slackronymContent, 0)
     }
 
     return <>
@@ -84,7 +88,11 @@ export const ProjectList = ({
             <p>Extensions - I love this speaker but of course there is more to do.  I hope to make a 3d printed casing to house the companents and allow it to be screwed on and off using the binding holes.  I'd also like to experiment with different exciters and using multiple to see if I can get the sound to be cleaner and louder</p>
         </Card>
         <Spacer />
-        <Card summary="Slackronym" image={require("../pics/project/slackronym/slack.png")}> 
+        <Card 
+            summary="Slackronym" 
+            image={require("../pics/project/slackronym/slack.png")}
+            onClick={setSlackronymProject}
+        > 
             <p>
             I built a {" "}
             <a href="https://github.com/tristan-gardner/slackronym"
