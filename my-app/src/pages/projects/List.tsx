@@ -1,7 +1,14 @@
 import Box from "@material-ui/core/Box"
 import React from "react"
 import { Card } from "./Card"
-import { nobotContent, slackronymContent, speakerContent, watererContent } from "./content"
+import { 
+    detectorContent,
+    nobotContent, 
+    slackronymContent, 
+    speakerContent, 
+    uuvContent, 
+    watererContent 
+} from "./content"
 
 
 interface ProjectListProps {
@@ -16,6 +23,14 @@ const Spacer = (): JSX.Element => {
 export const ProjectList = ({
     openModal
 }: ProjectListProps) => {
+    const setUuvProject = () => {
+        openModal(uuvContent, 0)
+    }
+
+    const setDetectorProject = () => {
+        openModal(detectorContent, 0)
+    }
+
     const setNobotProject = () => {
         openModal(nobotContent, 0)
     }
@@ -33,6 +48,55 @@ export const ProjectList = ({
     }
 
     return <>
+        <Card 
+            summary="Designing an RTG for an Underwater Vehicle" 
+            image={"https://res.cloudinary.com/dgnqdbhjg/image/upload/v1741390151/remus-rtg-arrows-bottom_xp8wbw.png"}
+            onClick={setUuvProject}
+        >
+            <p>
+                * IN PROGRESS
+                For my Capston project, I am working with a team to adapt radioisotope thermolelectric generator (RTG)
+                technology for use in unmanned underwater vehicles.
+            </p>
+            <p>
+                Underwater vehicle have many uses, and low power missions can get by with current batteries.
+                However, for missions that require more power, a more robust energy source is needed.
+                Currently, RTGs are mostly used in space - our aim is to find out what changes we need to make so that they are better
+                suited for life underwater.
+            </p>
+            <p>
+                My main role is in simulating the radiation and determing how we can shield onboard electronics from the damaging rays.
+                Using GEANT4 I modeled the fuel and surrounding material (video and picture shown).  
+                I also created a custom counter to indentify each location of energy deposition, and was able to determine the safe distance for various levels of lead shielding.
+            </p>
+            <p> 
+                Extensions - Make the thing!!
+            </p>
+        </Card>
+        <Spacer />
+        <Card 
+            summary="Oil on Water Detector" 
+            image={"https://res.cloudinary.com/dgnqdbhjg/image/upload/v1741023951/oilwater_xpcwqb.jpg"}
+            onClick={setDetectorProject}
+        >
+            <p>
+                I worked with Berkeley's Strawberry Creek monitors to prototype an oil detector.
+                Using YOLO ML package I trained a model that could detect the presence of gasoline on water.
+            </p>
+            <p>
+                To get training data - without pouring gasoline into a real creek - I built a test bed which constantly circulated water.
+                I took images of water moving with and without gasoline present and used that to train the model.
+                Then I wrote some code to reduce the image quality of the images, to mirror real life situations.  Click 'see more' for an example image of this quality.
+            </p>
+            <p>
+                For images of quality 50x42 pixels the model was 96% accurate. Code is <a href={'https://github.com/tristan-gardner/OilDetector'}>here</a>
+            </p>
+            <p> 
+                Extensions - This accuracy seems a little too high to, may need to make test conditions more realistic.
+                Also exploring how the model could work in low-light/night conditions.
+            </p>
+        </Card>
+        <Spacer />
         <Card 
             summary="Automatic Plant Waterer" 
             image={"https://res.cloudinary.com/dgnqdbhjg/image/upload/v1686787569/final_setup_go7pek.jpg"}
@@ -59,7 +123,7 @@ export const ProjectList = ({
         </Card>
         <Spacer />
         <Card 
-            summary="Nobot Ai Detection" 
+            summary="Nobot AI Detection" 
             image={require("../pics/project/nobot/logo.png")}
             onClick={setNobotProject}
         >

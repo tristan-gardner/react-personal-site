@@ -1,27 +1,25 @@
-import { withStyles } from "@material-ui/core"
 import Box from "@material-ui/core/Box"
 import IconButton from "@material-ui/core/IconButton"
 import Modal from "@material-ui/core/Modal"
 import { ChevronLeft, ChevronRight, Close } from "@material-ui/icons"
 import React, { useState } from "react"
 import CircularProgress from '@mui/material/CircularProgress';
+import { styled } from "@mui/material/styles";
 
-
-const StyledChevronButton = withStyles((theme) => ({
-    root: {
-      position: "absolute",
-      top: "50%",
-      zIndex: 1,
-      backgroundColor: theme.palette.common.black,
-      borderRadius: "50%",
-      padding: theme.spacing(1),
-      color: theme.palette.common.white,
-      opacity: 0.8,
-      "&:hover": {
-        opacity: 1,
-      },
-    },
-  }))(IconButton);
+const StyledChevronButton = styled(IconButton)(({ theme }) => ({
+  position: "absolute",
+  top: "50%",
+  transform: "translateY(-50%)",
+  zIndex: 1,
+  backgroundColor: theme.palette.common.black,
+  borderRadius: "50%",
+  padding: theme.spacing(1),
+  color: theme.palette.common.white,
+  opacity: 0.8,
+  "&:hover": {
+    opacity: 1,
+  },
+}));
 
 export interface CarrouselContent {
     source: string,
@@ -53,8 +51,8 @@ const Content = (
             <video 
                 controls src={modalImages[modalIndex].source} 
                 style={{
-                    maxWidth: "80vw",
-                    maxHeight: "80vh",
+                    maxWidth: "60vw",
+                    maxHeight: "60vh",
                     display: loading ? 'none' : "block",
                     margin: "0 auto",
                     position: "relative",
@@ -66,8 +64,8 @@ const Content = (
         : <img 
             src={modalImages[modalIndex].source} 
             style={{
-                maxWidth: "80vw",
-                maxHeight: "80vh",
+                maxWidth: "60vw",
+                maxHeight: "60vh",
                 display: loading ? 'none' : "block",
                 margin: "0 auto",
                 position: "relative",
@@ -119,11 +117,11 @@ export const Carrousel = ({
               <Close fontSize="large" />
             </IconButton>
             <Box display="flex" alignItems="center" position="relative">
-              <StyledChevronButton onClick={showPreviousImage} style={{ left: "8px" }}>
+              <StyledChevronButton onClick={showPreviousImage} style={{ left: "8px",position: "absolute" }}>
                 <ChevronLeft fontSize="large" />
               </StyledChevronButton>
               {Content(modalImages, modalIndex, loading, setLoading)}
-              <StyledChevronButton onClick={showNextImage} style={{ right: "8px" }}>
+              <StyledChevronButton onClick={showNextImage} style={{ right: "8px",position: "absolute" }}>
                 <ChevronRight fontSize="large" />
               </StyledChevronButton>
             </Box>

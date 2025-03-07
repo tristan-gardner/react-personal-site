@@ -18,10 +18,11 @@ const About = () => {
             <Typography variant="h3">Tristan Gardner</Typography>
             <p style={{fontSize: "26px"}}>I am a traveler, an avid climber, an improving snowboarder, an on-and-off reader, a bingewatcher, a huge Niners fan, and a competent cook.  I like to build, tinker with, break, and fix things, though not always in that order.</p>
             <p style={{fontSize: "26px"}}>
-            I was raised in Oakland, California, and went to school at Colgate University. 
-            After graduation, I began my career in the tech industry as a software engineer at Bird Rides. 
-            I later moved on to work as a fullstack engineer at Flowcode and am now 
-            a engineerin manager at Roots Automation. I have a strong background in software development with an emphasis on python and a focus on backend systems - so don't judge the website too harshly please.</p>
+            I was raised in Oakland, California, and got a Bachelors in Computer Science from Colgate University. 
+            After graduation, I began my career in the tech industry. I worked as a software engineer at <a href={"https://www.bird.co/"}>Bird</a>, <a href={"https://www.flowcode.com/"}>Flowcode</a>, and <a href={"https://www.academia.edu/"}>Academia.edu</a>, 
+            with a stint as an engineering manager at <a href={"https://www.rootsautomation.com/"}>Roots automation</a> in the middle.
+            Now I am working my way through Masters in Mechanical Engineering from UC Berkeley, with an expected graduation date of May 2025.
+            </p>
         </Box>
         <Box style={{
             display: 'flex',

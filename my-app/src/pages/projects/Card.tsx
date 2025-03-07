@@ -77,7 +77,8 @@ export const Card = ({
                 borderRadius: '10px',
                 flexDirection: 'column',
                 width: '100%',
-                backgroundColor: '#eeeeee',
+                border: '1px solid black',
+                // backgroundColor: '#eeeeee',
             }}>
                 <Box style={{
                     display: 'flex',

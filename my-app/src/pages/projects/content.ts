@@ -7,6 +7,18 @@ const makeContent = (url: string, isVideo: boolean = false): CarrouselContent =>
     }
 }
 
+export const uuvContent = [
+    makeContent("https://res.cloudinary.com/dgnqdbhjg/image/upload/v1741390027/gamma_sim_pic_y3pbjp.png"),
+    makeContent("https://res.cloudinary.com/dgnqdbhjg/video/upload/v1741390246/gamma_sim_recording_waudtb.mov", true),
+    makeContent("https://res.cloudinary.com/dgnqdbhjg/image/upload/v1741390151/remus-rtg-arrows-bottom_xp8wbw.png"),
+]
+
+export const detectorContent = [
+    makeContent("https://res.cloudinary.com/dgnqdbhjg/image/upload/v1741023834/example_data.png"),
+    makeContent("https://res.cloudinary.com/dgnqdbhjg/video/upload/v1741023156/test_creek_qjsbwt.mov", true),
+    makeContent("https://res.cloudinary.com/dgnqdbhjg/image/upload/v1741023951/oilwater_xpcwqb.jpg"),
+]
+
 export const watererContent = [
     makeContent("https://res.cloudinary.com/dgnqdbhjg/image/upload/v1686787611/parts_lkhfxp.jpg"),
     makeContent("https://res.cloudinary.com/dgnqdbhjg/image/upload/v1686787572/wiring_u3dngn.jpg"),
